@@ -1,64 +1,100 @@
 body {    
-
-    
+    background-color: #f0f5eb;    
 }
 
-.background {
-    
-    background-image: url("bioSite/images/collage.png");
-	opacity: 0.5;
-    
+header div#bg {    
+    width: 90%;
+    height: auto;
+    margin: auto;
 }
-  
 
+ul {
+    width: auto;    
+    margin: 70px auto 80px auto;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Orbitron', Verdana, Tahoma, serif;
+    font-size: 18pt;
+    font-weight: 500;    
+}
 
+li {
+    display: inline;
+    margin: auto;
+    padding: 30px 75px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: indigo;
+    text-decoration: none;
+}
 
 .container {
     width: 90%;
     display: grid;                    
-    grid-template-columns: 25% 35% 25%;
+    grid-template-columns: 30% 40% 30%;
     justify-content: space-evenly;
-    grid-gap: 20px;
-    margin: auto;
-    
+    grid-gap: 25px;
+    margin: auto;    
 }
 
 .left, .center, .right {
-    background-color: #f0f5eb;
-    border: 3pt double #396110;
+    border: 3pt solid #366405;
+    box-shadow: #366405 2px 2px 15px,
+                #366405 -2px -2px 15px;
     padding: 15px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .responsive {
     width: 100%;
-    height: auto;
-    
+    height: auto;    
 }
 
 h1 {
-    color: #f0f5eb;
-    font-family: "Lobster Two", Verdana, Tahoma, serif;
-    font-size: 64pt;
-    font-weight: 700;
+    font-family: 'Orbitron', Verdana, Tahoma, serif;
+    font-size: 80pt;
+    font-weight: 700;    
     text-align: center;
 }
 
 h2 {    
-    font-family: "Lobster Two", Verdana, Tahoma, serif;
-    font-size: 42pt;
+    font-family: 'Orbitron', Verdana, Tahoma, serif;
+    font-size: 30pt;
     font-weight: 700;
 }
 
-h3 {
-    font-family: 'Lobster Two', Verdana, Tahoma, serif;
-    font-size: 25pt
+h3 {    
+    font-family: 'Orbitron', Verdana, Tahoma, serif;
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+h4 {
+    float: right;
+    margin: 0px 50px 10px auto;
+    font-family: 'Orbitron', Verdana, Tahoma, serif;
+    font-size: 16pt;
+    font-weight: 600;
 }
 
 p {
-    font-family: 'Oxygen', Verdana, Tahoma, serif;
+    font-family: 'Kanit', Verdana, Tahoma, serif;
     font-size: 12pt;
-    font-weight: 500;
-    
+    font-weight: 400;    
+}
+
+footer {
+    margin: 50px auto auto auto;
 }
