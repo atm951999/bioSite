@@ -1,12 +1,23 @@
-body {    
-    background-color: #f0f5eb;    
+
+/* Set background color and height */
+html body {    
+    background-color: #f0f5eb;
+    height: 100%;    
 }
 
-header div#bg {    
-    width: 90%;
-    height: auto;
-    margin: auto;
+/* Set header image and size */
+header div{
+    background-image: url("../images/cris50c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 25px auto;
+    width: 95%;    
+    height: 500px;
 }
+
+/* Navigation styling */
 
 ul {
     width: auto;    
@@ -15,7 +26,7 @@ ul {
     justify-content: space-evenly;
     font-family: 'Orbitron', Verdana, Tahoma, serif;
     font-size: 18pt;
-    font-weight: 500;    
+    font-weight: 600;    
 }
 
 li {
@@ -39,6 +50,7 @@ a:hover {
     text-decoration: none;
 }
 
+/* Set container for all sections */
 .container {
     width: 90%;
     display: grid;                    
@@ -48,6 +60,7 @@ a:hover {
     margin: auto;    
 }
 
+/* Borders for sections */
 .left, .center, .right {
     border: 3pt solid #366405;
     box-shadow: #366405 2px 2px 15px,
@@ -61,11 +74,13 @@ a:hover {
     height: auto;    
 }
 
+/* Header styling */
 h1 {
     font-family: 'Orbitron', Verdana, Tahoma, serif;
-    font-size: 80pt;
+    font-size: 60pt;
     font-weight: 700;    
-    text-align: center;
+    text-align: center;    
+    margin: auto;
 }
 
 h2 {    
@@ -89,12 +104,14 @@ h4 {
     font-weight: 600;
 }
 
+/* Paragraph styling */
 p {
     font-family: 'Kanit', Verdana, Tahoma, serif;
     font-size: 12pt;
     font-weight: 400;    
 }
 
+/* Footer */
 footer {
     margin: 50px auto auto auto;
 }
