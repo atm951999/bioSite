@@ -7,7 +7,7 @@ html body {
 
 /* Set header image and size */
 header div{
-    background-image: url("../images/cris50cc.jpg");
+    background-image: url("../../images/cris50cc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
