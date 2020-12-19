@@ -14,7 +14,7 @@ header div{
     position: relative;
     margin: 25px auto;
     width: 95%;    
-    height: 400px;
+    height: 500px;
 }
 
 /* Navigation styling */
@@ -78,7 +78,7 @@ a:hover {
 h1 {
     font-family: 'Orbitron', Verdana, Tahoma, serif;
     font-size: 60pt;
-    font-weight: 700;    
+    font-weight: 400;    
     text-align: center;    
     margin: auto;
 }
@@ -86,7 +86,7 @@ h1 {
 h2 {    
     font-family: 'Orbitron', Verdana, Tahoma, serif;
     font-size: 30pt;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h3 {    
